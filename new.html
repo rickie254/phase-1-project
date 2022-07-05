@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Los Angeles Lakers</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <section id="sect1">
+            <nav id="navbar">
+                <img src="./images/logo.jpg" alt="">
+                <h2>Los Angeles Lakers</h2>
+                <div id="dropdown">
+                    <p>PLAYERS</p>
+                    <div id="dropdownContent">
+                        <p id="LebronJames">Lebron James</p>
+                        <p id="RussellWestbrook">Russell Westbrook</p>
+                        <p id="AnthonyDavis">Anthony Davis</p>
+                        <p id="CarmeloAnthony">Carmelo Anthony</p>
+                        <p id="MalikMonk">Malik Monk</p>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section id="sect2">
+            <div id="aboutPlayer">
+                <div id="playerName">
+                    <p id="firstName">select a player</p>
+                    <p id="lastName"></p>
+                </div>
+                <div id="playerHealth">
+                    <div id="playerHeight">
+                        <p class="height">Height</p>
+                        <p><span id="heightOfPlayer">-</span>metres</p>
+                    </div>
+                    <div id="playerWeight">
+                        <p class="weight">Weight</p>
+                        <p><span id="weightOfPlayer">-</span>Kilograms</p>
+                    </div>
+                </div>
+                <div id="playerInfo">
+                    <p>Born:<span id="born">-</span></p>
+                    <p>From:<span id="from">-</span></p>
+                    <!-- <p>NBA Debut:<span id="debut">-</span></p>
+                    <p>Previously:<span id="previously">-</span></p> -->
+                </div>
+            </div>
+            <div id="jersey">
+                <div id="jerseyNumber">
+                    <img src="./images/lakers.jpg" alt="" height="80px" width="80px" style="margin: 0%;">
+                    <p id="Num"></p>
+                    <p id="position"></p>
+                </div>
+                <div id="likesAndComments">
+                    <div>
+                        <p id="likeCounter"></p>
+                        <i id="liker" class="fa fa-heart" style="font-size: 30px;"></i>
+                    </div>
+                    <div>
+                        <ul id="comments"></ul>
+                        <form id="form" action="">
+                            <input type="textarea" id="input" placeholder="add comment"><br>
+                            <input type="submit" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="playerImage">
+                <img src="" alt="" id="imageOfPlayer">
+            </div>
+        </section>
+        <section id="sect3">
+            <div id="postSeason">
+                <h4>POST SEASON</h4>
+                <div id="postSeasonStats">
+                    <p>MPG <span id="postMPG">-</span></p>
+                    <p>FG%<span id="postFG">-</span></p>
+                    <p>3PT%<span id="post3PT">-</span></p>
+                    <p>FT%<span id="postFT">-</span></p>
+                    <p>PPG<span id="postPPG">-</span></p>
+                    <p>RPG<span id="postRPG">-</span></p>
+                    <p>APG<span id="postAPG">-</span></p>
+                    <p>BPG<span id="postBPG">-</span></p>
+                </div>
+            </div>
+            <div id="career">
+                <h4>CAREER STATS</h4>
+                <div id="careerStats">
+                    <p>MPG<span id="careerMPG">-</span></p>
+                    <p>FG%<span id="careerFG">-</span></p>
+                    <p>3PT%<span id="career3PT">-</span></p>
+                    <p>FT%<span id="careerFT">-</span></p>
+                    <p>PPG<span id="careerPPG">-</span></p>
+                    <p>RPG<span id="careerRPG">-</span></p>
+                    <p>APG<span id="careerAPG">-</span></p>
+                    <p>BPG<span id="careerBPG">-</span></p>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="sect4">
+            <h2>Hey There!! <br>Want to see your favourite players stats? <br>Just type in the players name.</h2>
+            <form action="" id="userForm">
+                <label for="inputFirstName">PlayerName</label>
+                <input type="text" id="inputFirstName" placeholder="firstname">
+                <input type="text" id="inputLastName" placeholder="lastname">
+                <input type="submit" id="submitPlayer">
+            </form>
+            <div id="userInputPlayer">
+                <div id="playerStats">
+                    <p>MPG (Minutes Played per Game)<br><span id="playerMPG">--</span></p>
+                    <p>FG% (Field Goal Percentage)<br><span id="playerFG">--</span></p>
+                    <p>3PT% (3 Point Percentage)<br><span id="player3PT">--</span></p>
+                    <p>FT% (Free Throw Percentage)<br><span id="playerFT">--</span></p>
+                    <p>PPG (Points Per Game)<br><span id="playerPPG">--</span></p>
+                    <p>RPG (Rebounds Per Game)<br><span id="playerRPG">--</span></p>
+                    <p>APG (Assists Per Game)<br><span id="playerAPG">--</span></p>
+                    <p>BPG (Blocks Per Game)<br><span id="playerBPG">--</span></p>
+                </div>
+                <img id="playerInputImage" src="" alt="">
+                
+            </div>
+        </section>  -->
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
